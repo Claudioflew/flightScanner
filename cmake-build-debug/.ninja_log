@@ -1,0 +1,5 @@
+# ninja log v5
+3	77	1714447846320093168	build.ninja	5e6ff2b36fb935af
+3	698	1714421806398138450	CMakeFiles/Semester_Project.dir/main.cpp.o	68b41a25092add7c
+2	487	1714421976123497264	CMakeFiles/Semester_Project.dir/FlightMap.cpp.o	349bf622fc073487
+487	516	1714421976154934799	Semester_Project	65df288da8d026c7
