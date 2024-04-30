@@ -53,7 +53,7 @@ void FlightMap::findCheapestByDijkstra(int from, int to) const {
     }
 
     cout << "\nThe cheapest flight cost from " << APT::APT_DICT.at(from) << " to "
-         << APT::APT_DICT.at(to) << ": " << costs[to][0] << endl;
+         << APT::APT_DICT.at(to) << ": $" << costs[to][0] << endl;
 
     stack<string> route;
     int curr = to;
@@ -101,7 +101,7 @@ void FlightMap::findShortestByDijkstra(int from, int to) const {
         }
     }
     cout << "\nThe shortest flight time from " << APT::APT_DICT.at(from) << " to "
-         << APT::APT_DICT.at(to) << " (Mins): " << durations[to][0] << endl;
+         << APT::APT_DICT.at(to) << ": " << durations[to][0] << " mins" << endl;
 
     stack<string> route;
     int curr = to;
