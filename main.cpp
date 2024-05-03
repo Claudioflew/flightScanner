@@ -22,7 +22,7 @@ int main() {
         getline(cin, input);
         if (input != "Y" && input  != "y") break;
     }
-    cout << "Thank you for using this program. Have a superior day!" << endl;
+    cout << "\nThank you for using this program. Have a superior day!" << endl;
 }
 
 vector<int> askfromAndTo() {
