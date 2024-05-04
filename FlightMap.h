@@ -15,8 +15,6 @@ public:
     FlightMap(const std::string&);
     void loadCSV(const std::string&);
 
-    std::vector<std::vector<std::pair<int, int>>>& getAdjMatrix() { return adjMatrix; }
-
     void findCheapestByDijkstra(int, int) const;
     void findShortestByDijkstra(int, int) const;
 
